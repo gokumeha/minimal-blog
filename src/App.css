@@ -1,0 +1,77 @@
+/* ... (keep all your existing styles) ... */
+
+/* Write Page Styles */
+.write-page-container {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.write-page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.write-page-header h2 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+.author-info {
+  font-size: 0.95rem;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+.write-form label {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #616161;
+}
+
+.write-form .form-textarea {
+  resize: vertical; /* Allow vertical resizing */
+  min-height: 150px;
+}
+
+.publish-button {
+  background-color: #4CAF50; /* Green for publish */
+  color: white;
+  padding: 14px 25px;
+  border: none;
+  border-radius: 6px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.publish-button:hover {
+  background-color: #45a049;
+}
+
+.back-button {
+  background: none;
+  border: 1px solid #9E9E9E;
+  color: #616161;
+  padding: 8px 15px;
+  border-radius: 6px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.back-button:hover {
+  background-color: #f5f5f5;
+  border-color: #746e6e;
+}
